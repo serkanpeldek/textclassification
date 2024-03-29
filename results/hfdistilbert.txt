@@ -1,0 +1,1158 @@
+Accuracy: 0.78
+
+Confusion Matrix:
+[[  71    0    0 ...    0    0    0]
+ [   0 1779    0 ...    0    0    0]
+ [   0    0 1476 ...    0    0    0]
+ ...
+ [   0    0    0 ...   93    0    0]
+ [   1    0    0 ...    0 2724    0]
+ [   0    0    0 ...    0    0  141]]
+
+Classification Report:
+                                      precision    recall  f1-score   support
+
+                       ADSL Modemler       0.24      0.72      0.36        98
+                              Abajur       0.93      0.96      0.94      1854
+          Abiye & Mezuniyet Elbisesi       0.69      0.49      0.57      3034
+                      Abiye Ayakkabı       0.62      0.51      0.56      1621
+                         Abiye Çanta       0.56      0.72      0.63       652
+                 Ahşap & Metal Kesme       0.51      0.71      0.60       195
+               Ahşap Boyaları&Vernik       0.53      0.73      0.62       649
+                        Ahşap Boyası       0.14      0.57      0.23       322
+                    Ahşap Oyuncaklar       0.65      0.52      0.58      2718
+                              Ajanda       0.54      0.86      0.66       711
+                        Akrilik Boya       0.95      0.72      0.82      6637
+                      Aktar Ürünleri       0.32      0.42      0.37       554
+           Aktivite Masası & Merkezi       0.65      0.84      0.73       242
+                            Akvaryum       0.36      0.58      0.44       370
+         Akvaryum Dekor Ve Aksesuarı       0.50      0.59      0.54       444
+                                 Akü       0.62      0.94      0.74       491
+                       Akülü Araçlar       0.78      0.89      0.83       136
+                      Akülü Vidalama       0.64      0.80      0.71       371
+                     Akıllı Bileklik       0.46      0.82      0.59       187
+              Akıllı Bileklik Kordon       0.58      0.84      0.68      1829
+                 Akıllı Cep Telefonu       0.47      0.91      0.62       113
+                         Akıllı Saat       0.87      0.87      0.87      1259
+                  Akıllı Saat Kordon       0.91      0.84      0.87      9803
+      Alarm & Sensör & Merkezi Kilit       0.54      0.87      0.66       473
+                                Alez       0.95      0.97      0.96       435
+                               Allık       0.87      0.90      0.89       659
+                       Alt-Üst Takım       0.75      0.45      0.56      9999
+                      Altın Bileklik       0.74      0.76      0.75      2803
+                         Altın Kolye       0.87      0.81      0.84      5378
+                          Altın Küpe       0.61      0.83      0.70      2559
+                         Altın Yüzük       0.82      0.80      0.81      3083
+                              Alyans       0.80      0.99      0.88       867
+                   Alıştırma Bardağı       0.47      0.91      0.62       244
+                           Amigurumi       0.45      0.81      0.58       553
+                          Amino Asit       0.50      0.81      0.62       121
+                               Ampul       0.76      0.63      0.69      2036
+                          Ana Kucağı       0.60      0.83      0.69       328
+                          Anahtarlar       0.80      0.75      0.77      1604
+                          Anahtarlık       0.92      0.81      0.86      5265
+                             Anakart       0.62      0.89      0.73       163
+                        Anal Oyuncak       0.84      0.90      0.87       258
+                            Ankastre       0.87      0.94      0.90       201
+                       Antep Fıstığı       0.93      0.97      0.95       501
+                            Antifriz       0.73      0.91      0.81       129
+                               Aplik       0.77      0.88      0.82       919
+                        Araba Kokusu       0.19      0.87      0.31       203
+                       Araç Body Kit       0.23      0.74      0.35       431
+                  Araç İçi Kameralar       0.77      0.92      0.84       104
+             Araç İçi Telefon Tutucu       0.98      0.94      0.96      9872
+      Arma Sticker & Fosfor Şeritler       0.95      0.84      0.90      9186
+                             Armatür       0.59      0.78      0.68       705
+                        Armut Koltuk       0.77      0.94      0.84       127
+                                Askı       0.69      0.55      0.62      1393
+                             Askılık       0.53      0.72      0.61       576
+                           Aspiratör       0.36      0.91      0.51       139
+                       Astar Boyalar       0.46      0.75      0.57       601
+                      Astronot Tulum       0.18      0.66      0.28       391
+                          Ateş Ölçer       0.77      0.90      0.83       136
+                 Ateşleyici & Çakmak       0.94      0.88      0.91      1501
+                                Atkı       0.76      0.93      0.84       444
+                  Atkı & Bere Takımı       0.41      0.79      0.54       145
+                               Atlet       0.93      0.80      0.86      6574
+            Avantajlı Ürün Paketleri       0.07      0.29      0.11       147
+                Avcılık Aksesuarları       0.12      0.49      0.19       112
+                               Avize       0.97      0.87      0.92      6648
+                        Ay Çekirdeği       0.65      0.97      0.77       146
+                          Ayak Kremi       0.63      0.80      0.70       219
+                Ayak Sağlık Ürünleri       0.50      0.60      0.54       534
+                      Ayakkabı Bakım       0.41      0.59      0.49       232
+                     Ayakkabı Boyası       0.47      0.74      0.58       123
+                         Ayakkabılık       0.37      0.88      0.52       238
+                         Aydınlatıcı       0.70      0.86      0.77       393
+                                Ayna       0.91      0.80      0.85      3056
+                                Ağda       0.95      0.89      0.92       993
+                          Ağda Bandı       0.70      0.93      0.80       197
+                 Ağız Çalkalama Suyu       0.73      0.86      0.79       169
+               Aşılı Meyve Fidanları       0.81      0.54      0.65      1275
+                       BB ve CC Krem       0.36      0.64      0.46       357
+                               Babet       0.91      0.94      0.93      3171
+                            Babydoll       0.20      0.74      0.31       155
+                   Bagaj Düzenleyici       0.86      0.85      0.85      5341
+                        Bagaj Havuzu       0.97      0.99      0.98     13226
+                          Baharatlık       0.80      0.78      0.79      1051
+                  Bahçe Aydınlatması       0.79      0.84      0.82      1641
+           Bahçe Makine Aksesuarları       0.22      0.48      0.30       404
+                        Bahçe Masası       0.58      0.73      0.65       288
+                       Bahçe Minderi       0.44      0.90      0.59       310
+                   Bahçe Oyuncakları       0.04      0.45      0.08        75
+                    Bahçe Sandalyesi       0.57      0.68      0.62       430
+                     Bahçe Takımları       0.79      0.84      0.82       661
+                Bahçe Yer Döşemeleri       0.87      0.91      0.89       779
+                          Bakım Yağı       0.87      0.64      0.74      3020
+                                 Bal       0.52      0.75      0.61       460
+                               Balon       0.98      0.80      0.88      9544
+                        Balon Standı       0.70      0.93      0.80       256
+                       Balon Zinciri       0.47      0.97      0.63      1150
+                       Balık Yağları       0.42      0.80      0.55       168
+             Balıkçılık Aksesuarları       0.50      0.54      0.52       529
+                             Bandana       0.77      0.87      0.82      1536
+                Bant & Bant Makinesi       0.33      0.82      0.47       400
+                     Banyo Aksesuarı       0.40      0.38      0.39       423
+                        Banyo Askısı       0.74      0.48      0.58      1255
+                        Banyo Aynası       0.14      0.84      0.25       104
+                     Banyo Bataryası       0.74      0.85      0.79       654
+                        Banyo Dolabı       0.88      0.88      0.88       470
+                   Banyo Düzenleyici       0.59      0.53      0.56       621
+               Banyo Lifi ve Süngeri       0.99      0.88      0.93      2335
+                       Banyo Paspası       0.96      0.93      0.95      3124
+                      Banyo Tesisatı       0.57      0.45      0.50      1253
+           Banyo ve Duş Aksesuarları       0.10      0.48      0.17       116
+                    Banyo Çöp Kovası       0.46      0.49      0.47       306
+                              Bardak       0.62      0.43      0.51      4333
+                      Bardak Altlığı       0.99      0.99      0.99      9926
+                    Bardak Poşet Çay       0.43      0.52      0.47       353
+            Barfiks ve Şınav Barları       0.47      0.88      0.61       112
+                Basketbol Ayakkabısı       0.19      0.75      0.30       118
+                      Basketbol Topu       0.64      0.97      0.77       127
+                             Batarya       0.91      0.90      0.91      3491
+                 Battal Boy Nevresim       0.21      0.82      0.34       130
+             Battal Boy Yatak Örtüsü       0.31      0.76      0.44       221
+                                Baza       0.70      0.92      0.80       159
+                             Bağlama       0.60      0.95      0.74       182
+        Bebek & Aktivite Oyuncakları       0.18      0.22      0.20      1016
+                       Bebek Arabası       0.76      0.74      0.75       317
+              Bebek Arabası Aksesuar       0.45      0.79      0.58       128
+                 Bebek Bakım Çantası       0.82      0.78      0.80       873
+                  Bebek Bakım Örtüsü       0.65      0.82      0.72       162
+            Bebek Banyo Aksesuarları       0.55      0.41      0.47       568
+                          Bebek Bezi       0.94      0.94      0.94       617
+                  Bebek Body & Zıbın       0.90      0.83      0.87      6421
+                        Bebek Bornoz       0.72      0.80      0.76       460
+                Bebek Havlu & Bornoz       0.46      0.58      0.51       245
+                     Bebek Hediyelik       0.44      0.43      0.43      1089
+                  Bebek Islak Mendil       0.59      0.63      0.61       305
+                 Bebek Kremi ve Yağı       0.67      0.79      0.72       497
+                        Bebek Küveti       0.56      0.93      0.70       188
+                  Bebek Odası Takımı       0.91      0.96      0.93       173
+          Bebek Pudrası ve Kolonyası       0.50      0.84      0.63       128
+                        Bebek Sabunu       0.63      0.75      0.68       136
+           Bebek Salıncağı & Hoppala       0.60      0.83      0.70       164
+                     Bebek Takımları       0.78      0.54      0.64      7676
+                         Bebek Yatak       0.80      0.87      0.83       231
+                      Bebek Şampuanı       0.66      0.85      0.74       540
+             Bebek&Çocuk Battaniyesi       0.92      0.82      0.86      1992
+         Bebek&Çocuk Nevresim Takımı       0.82      0.71      0.76       887
+                    Bebek&Çocuk Pike       0.38      0.76      0.50       102
+        Bebek&Çocuk Yastık ve Kılıfı       0.22      0.80      0.35       279
+            Bebek&Çocuk Yatak Örtüsü       0.89      0.82      0.85       812
+                  Bebek&Çocuk Yorgan       0.84      0.96      0.89       114
+                 Bebek&Çocuk Çarşafı       0.74      0.83      0.79       567
+                         Bel Çantası       0.70      0.82      0.75       838
+                        Bellek (RAM)       0.20      0.86      0.32       305
+                                Bere       0.92      0.92      0.92      3008
+                              Berjer       0.90      0.95      0.92       382
+               Beslenme Aksesuarları       0.44      0.63      0.51       214
+                    Beslenme Çantası       0.61      0.85      0.71       243
+                    Beslenme&Emzirme       0.23      0.26      0.25       246
+              Beyaz Eşya Yedek Parça       0.47      0.47      0.47      1539
+                               Beşik       0.77      0.87      0.82       350
+                             Biberon       0.86      0.87      0.86       757
+                   Bijuteri Bileklik       0.81      0.68      0.74      9632
+                     Bijuteri Halhal       0.92      0.88      0.90      1355
+                      Bijuteri Kolye       0.77      0.63      0.69      9721
+                       Bijuteri Küpe       0.76      0.72      0.74     11207
+              Bijuteri Kıkırdak Küpe       0.44      0.87      0.58       401
+                      Bijuteri Takım       0.22      0.72      0.34       340
+                      Bijuteri Yüzük       0.73      0.81      0.76      4277
+                         Bikini Altı       0.94      0.96      0.95       320
+                       Bikini Takımı       0.88      0.94      0.91      1000
+                         Bikini Üstü       0.75      0.95      0.83       244
+                             Bilezik       0.44      0.85      0.58       579
+                   Bilgisayar Kasası       0.67      0.91      0.77       373
+              Bilgisayar Yedek Parça       0.95      0.87      0.91      2960
+                            Bisiklet       0.85      0.84      0.84       797
+               Bisiklet Aksesuarları       0.60      0.49      0.54      1764
+                   Bisküvi ve Kraker       0.37      0.75      0.49       206
+                      Bitki ve Tohum       0.33      0.36      0.35       947
+                       Bitki Çayları       0.53      0.39      0.45       713
+                    Bitkisel Ürünler       0.31      0.37      0.34       675
+                 Blender Yedek Parça       0.76      0.85      0.80       399
+                 Bluetooth Araç Kiti       0.99      0.99      0.99      6419
+                  Bluetooth Hoparlör       0.97      0.90      0.93      2757
+                                Bluz       0.91      0.47      0.62      9391
+                                Body       0.75      0.81      0.78      2265
+                    Boks Ekipmanları       0.64      0.87      0.74       182
+                              Boncuk       0.80      0.79      0.80      2255
+                                Bone       0.54      0.88      0.67       374
+                              Bornoz       0.92      0.92      0.92      1178
+                        Bot & Bootie       0.96      0.83      0.89     12278
+                               Boxer       0.97      0.94      0.95      3691
+                         Boya Açıcı        0.41      0.89      0.57       130
+                    Boya Malzemeleri       0.93      0.62      0.74      5184
+                            Boyunluk       0.88      0.78      0.83      1595
+                                Broş       0.91      0.98      0.94       807
+                       Budama Makası       0.87      0.92      0.90       224
+          Bulaşık Makinesi Deterjanı       0.72      0.87      0.78       208
+          Bulaşık Süngeri ve Fırçası       0.68      0.75      0.72       510
+                          Bulaşıklık       0.70      0.83      0.76       184
+                              Bulgur       0.90      0.96      0.93       158
+                          Buz Kalıbı       0.48      0.95      0.64       154
+                    Buzdolabı Poşeti       0.53      0.76      0.63       193
+                            Büstiyer       0.63      0.78      0.70      1560
+            Büyük Beden Abiye Elbise       0.25      0.66      0.36       326
+                    Büyük Beden Bluz       0.23      0.74      0.36       997
+                   Büyük Beden Ceket       0.29      0.62      0.39       222
+                  Büyük Beden Elbise       0.30      0.68      0.41      1248
+                    Büyük Beden Etek       0.12      0.67      0.20       128
+            Büyük Beden Eşofman Altı       0.26      0.75      0.38       125
+          Büyük Beden Eşofman Takımı       0.33      0.66      0.44       296
+                  Büyük Beden Gömlek       0.42      0.70      0.52       464
+                   Büyük Beden Hırka       0.22      0.65      0.33       197
+                   Büyük Beden Kaban       0.27      0.81      0.41       122
+                   Büyük Beden Kazak       0.08      0.77      0.14       115
+                    Büyük Beden Mont       0.24      0.74      0.36       129
+                Büyük Beden Pantolon       0.33      0.70      0.44       665
+           Büyük Beden Pijama Takımı       0.51      0.82      0.63       631
+              Büyük Beden Sweatshirt       0.59      0.85      0.70       988
+                 Büyük Beden T-Shirt       0.71      0.78      0.74       788
+                    Büyük Beden Tayt       0.23      0.73      0.35       199
+                   Büyük Beden Tunik       0.39      0.65      0.49       387
+                   Büyük Beden Yelek       0.27      0.68      0.38       130
+                               Bıçak       0.86      0.87      0.86      1632
+                         Cam Silecek       0.34      0.30      0.32       227
+                   Cam Silme Aparatı       0.30      0.77      0.44       111
+     Cam ve Parlak Yüzey Temizleyici       0.23      0.42      0.30       130
+                     Casual Ayakkabı       0.69      0.50      0.58      9681
+                               Ceket       0.92      0.51      0.66      5312
+                               Ceviz       0.76      0.84      0.80       235
+                               Cezve       0.83      0.90      0.86       612
+                               Charm       0.62      0.96      0.75       295
+                              Choker       0.41      0.96      0.57       164
+                 Cilt Bakım Aletleri       0.13      0.34      0.19       108
+                         Cilt Serumu       0.86      0.79      0.82      1047
+                                Cips       0.42      0.81      0.56       126
+                              Cüzdan       0.91      0.87      0.89      6183
+                              Cımbız       0.87      0.85      0.86       646
+                    DVR Kayıt Cihazı       0.48      0.81      0.60       118
+      Dambıllar ve Ağırlık Plakaları       0.83      0.91      0.87       345
+                           Defterler       0.96      0.81      0.88      9553
+Dekoratif Aydınlatma ve Gece Lambası       0.30      0.13      0.18      2819
+                      Dekoratif Kutu       0.52      0.69      0.59       563
+             Dekoratif Obje ve Biblo       0.92      0.81      0.86      5787
+                   Dekoratif Sticker       0.88      0.73      0.80      5118
+              Dekoratif Tabak & Kase       0.44      0.53      0.48       698
+                   Dekoratif Ürünler       0.36      0.24      0.29      2170
+                              Demlik       0.37      0.76      0.50       176
+                    Demlik Poşet Çay       0.82      0.72      0.77       185
+                    Deniz Ayakkabısı       0.70      0.88      0.78       233
+                         Deniz Şortu       0.77      0.82      0.79       609
+                           Deodorant       0.86      0.82      0.84      1351
+                         Dermaroller       0.65      0.80      0.72       191
+                       Derz Ürünleri       0.40      0.78      0.53       197
+                         Dezenfektan       0.83      0.86      0.84       622
+                        Dikiz Aynası       0.84      0.90      0.87      1150
+                      Dikiş Makinesi       0.49      0.57      0.53       830
+         Dikiş Makinesi Aksesuarları       0.59      0.58      0.59      1178
+                               Dildo       0.90      0.93      0.92       444
+                 Direksiyon Ürünleri       0.99      0.97      0.98      9372
+                      Direnç Lastiği       0.75      0.89      0.82       261
+                  Dizüstü Bilgisayar       0.97      0.89      0.93       828
+                Diş Beyazlatma Ürünü       0.46      0.83      0.59        94
+                        Diş Fırçalık       0.72      0.89      0.80       333
+                          Diş Macunu       0.97      0.89      0.93      1363
+                  Dişlik ve Çıngırak       0.58      0.84      0.69       424
+                   Dolap ve Gardırop       0.83      0.92      0.87       422
+               Dolap İçi Düzenleyici       0.14      0.65      0.23       123
+              Dolgu Topuklu Ayakkabı       0.42      0.67      0.51       651
+                            Dosyalar       0.98      0.88      0.93      3394
+                     Doğrayıcı&Rondo       0.25      0.84      0.39        97
+                     Doğum Günü Süsü       0.66      0.71      0.69      1078
+                             Dresuar       0.87      0.94      0.91       410
+                        Dudak Kalemi       0.90      0.93      0.92       624
+             Dudak Kremi ve Peelingi       0.71      0.90      0.80       433
+                   Dudak Parlatıcısı       0.64      0.82      0.72       992
+             Duvak & Gelin Aksesuarı       0.41      0.76      0.53       498
+               Duvar & Cephe Kaplama       0.49      0.72      0.58       571
+           Duvar Dekorasyon Ürünleri       0.83      0.53      0.65      5570
+                        Duvar Kağıdı       0.99      0.93      0.96      7474
+                          Duvar Rafı       0.76      0.86      0.81      1015
+                         Duvar Saati       0.98      0.95      0.96      9976
+                        Duvar Örtüsü       0.95      0.99      0.97      1682
+                            Duş Jeli       0.98      0.87      0.92      1696
+                      Duş Sistemleri       0.86      0.86      0.86      1097
+                           Duşakabin       0.95      0.98      0.97       526
+                           Dökme Çay       0.58      0.64      0.61       748
+         Döşeme & Çivi & Zımba Çakma       0.60      0.93      0.73       175
+                     Düdüklü Tencere       0.79      0.94      0.86       144
+                         Düzenleyici       0.60      0.33      0.43      1695
+                Düğün & Kına & Nikah       0.65      0.64      0.64      1591
+                  Dış Cephe Boyaları       0.88      0.83      0.85      1046
+                   Egzersiz Aletleri       0.56      0.65      0.60       231
+           Ekmek Kutusu ve Sepetleri       0.82      0.88      0.85       416
+                               Ekran       0.93      0.97      0.95      2439
+                 Ekran Koruyucu Film       0.97      0.91      0.94      9286
+                           El Feneri       0.77      0.89      0.82      1246
+                            El Kremi       0.58      0.70      0.63       716
+                          El Çantası       0.30      0.45      0.36      2808
+                  El İşi Malzemeleri       0.26      0.37      0.30       996
+                              Elbise       0.81      0.59      0.68      9799
+              Elde Bulaşık Deterjanı       0.76      0.87      0.81       210
+                             Eldiven       0.99      0.92      0.95      3625
+         Elektronik Devre Elemanları       0.12      0.28      0.17       307
+                         Emici Külot       0.59      0.91      0.72       104
+                               Emzik       0.92      0.86      0.89      1167
+      Emzirme & Saklama Aksesuarları       0.25      0.68      0.36        93
+                      Emzirme Atleti       0.82      0.95      0.88       116
+                     Emzirme Sütyeni       0.93      0.94      0.93       312
+                     Emzirme Yastığı       0.73      0.92      0.82       166
+      Endüstriyel Mutfak Ekipmanları       0.35      0.40      0.37       392
+               Endüstriyel Temizleme       0.22      0.78      0.34        59
+                      Enerji İçeceği       0.54      0.81      0.65       104
+                            Espadril       0.38      0.80      0.51       165
+                            Et Bebek       0.42      0.60      0.49       561
+                                Etek       0.90      0.64      0.75      3793
+                           Etiketler       0.86      0.83      0.84      2457
+                             Ev Botu       0.23      0.84      0.36       170
+                          Ev Terliği       0.37      0.65      0.47      1589
+              Ev Tüketim Malzemeleri       0.13      0.28      0.18       214
+                               Eviye       0.61      0.82      0.70       190
+                     Eviye Bataryası       0.81      0.83      0.82       675
+                            Eyeliner       0.87      0.84      0.86       707
+                  Eğitici Oyuncaklar       0.51      0.19      0.27      3825
+                               Eşarp       0.92      0.84      0.88      9624
+                        Eşofman Altı       0.92      0.72      0.81      5576
+                      Eşofman Takımı       0.71      0.53      0.60      4291
+                           FFP Maske       0.32      0.75      0.45       133
+                              Fanila       0.45      0.89      0.60       349
+                    Fantezi Aksesuar       0.57      0.61      0.59      1128
+                    Fantezi Babydoll       0.38      0.44      0.40      1544
+                     Fantezi Gecelik       0.74      0.54      0.62      4874
+                    Fantezi Jartiyer       0.41      0.37      0.39      1369
+                      Fantezi Kostüm       0.63      0.56      0.59      2796
+                       Fantezi Külot       0.25      0.61      0.35       401
+                      Fantezi String       0.33      0.59      0.43       259
+                       Fantezi Çorap       0.44      0.80      0.57       681
+        Fantezi İç Çamaşır Takımları       0.53      0.23      0.32      2930
+                             Fideler       0.79      0.84      0.81       571
+                               Figür       0.69      0.55      0.61      2524
+            Filtre ve Çekirdek Kahve       0.93      0.74      0.83      1393
+                 Fitness - Kondisyon       0.13      0.26      0.18       244
+                           Fon Perde       0.98      0.82      0.89      7850
+                            Fondöten       0.91      0.92      0.92      1149
+                               Forma       0.38      0.87      0.53       126
+                   Fosforlu Kalemler       0.74      0.87      0.80       701
+          Foto & Kamera Aksesuarları       0.86      0.68      0.76      3136
+         Fotokopi ve Baskı Kağıtları       0.58      0.75      0.65       735
+                        French Press       0.60      0.89      0.72       341
+                               Fular       0.69      0.80      0.74      1056
+                         Futbol Topu       0.68      0.95      0.79       191
+                              Fındık       0.73      0.93      0.82       321
+                               Fırça       0.93      0.85      0.89      3339
+                    Fırın&Kek Kalıbı       0.87      0.78      0.82      3089
+                       Fıstık Ezmesi       0.83      0.93      0.88       104
+                               Gazoz       0.37      0.65      0.47        34
+                        Gece Lambası       0.39      0.80      0.53      1001
+                             Gecelik       0.61      0.77      0.68      2504
+                     Geciktirici Jel       0.14      0.68      0.24        69
+                            Gelinlik       0.61      0.96      0.75       134
+               Genel Bakım Spreyleri       0.50      0.70      0.59       402
+                        Geçici Dövme       0.89      0.93      0.91       650
+                               Gitar       0.86      0.92      0.89       566
+                      Glutensiz Ürün       0.62      0.76      0.68       312
+                        Granül Kahve       0.37      0.74      0.49       246
+          Grup Priz Uzatma Kabloları       0.73      0.75      0.74       755
+             Gurme & Organik Ürünler       0.30      0.08      0.13      1623
+                          Gurme Ürün       0.34      0.47      0.40       458
+                              Gömlek       0.96      0.76      0.85     10228
+            Görüntü ve Ses Kabloları       0.20      0.67      0.31       232
+                            Göz Farı       0.90      0.94      0.92      1661
+                          Göz Kalemi       0.83      0.84      0.83       759
+                           Göz Kremi       0.60      0.85      0.70       221
+                    Gözlük Aksesuarı       0.70      0.86      0.77       650
+              Göğüs Pedi ve Koruyucu       0.56      0.97      0.71       112
+                               Gübre       0.62      0.68      0.65       595
+                      Gümüş Bileklik       0.91      0.80      0.85      8665
+                        Gümüş Halhal       0.81      0.90      0.85       578
+                         Gümüş Kolye       0.88      0.82      0.85      9945
+                          Gümüş Küpe       0.93      0.79      0.85      9973
+                 Gümüş Kıkırdak Küpe       0.48      0.74      0.59       284
+                         Gümüş Yüzük       0.98      0.87      0.92      9979
+                      Gümüş Şahmeran       0.62      1.00      0.77       150
+                       Güneş Gözlüğü       0.99      0.93      0.96      9849
+                  Güvenlik Cihazları       0.33      0.45      0.38       300
+                        Hafıza Kartı       0.65      0.82      0.72       157
+                                Halı       0.96      0.76      0.85      9237
+                Halı Saha Ayakkabısı       0.86      0.69      0.76       467
+                         Halı Örtüsü       0.86      0.98      0.92       421
+                     Hamile Elbisesi       0.84      0.87      0.85       216
+                      Hamile Gecelik       0.88      0.91      0.89       620
+          Hamile Korsesi & Bel Bandı       0.52      0.79      0.63       144
+                       Hamile Külodu       0.96      0.98      0.97       182
+                Hamile Pijama Takımı       0.95      0.87      0.91       993
+                      Hamile T-Shirt       0.66      0.88      0.76       111
+                            Harddisk       0.36      0.60      0.45       198
+                          Hasta Bezi       0.88      0.76      0.82       188
+                   Hastane Çıkışları       0.87      0.91      0.89      1911
+                  Hava Kompresörleri       0.45      0.91      0.61       138
+                   Hava Nemlendirici       0.98      0.97      0.97      1777
+                    Hava Temizleyici       0.38      0.89      0.53       109
+                               Havuz       0.67      0.96      0.79       167
+             Hayvan Figür Oyuncaklar       0.20      0.53      0.29       406
+              Hayvancılık Makineleri       0.32      0.47      0.38       499
+              Hazır Mutfak Dolapları       0.88      0.95      0.91       239
+                         Hazır Çorba       0.50      0.82      0.62       114
+                        Haşere İlacı       0.69      0.79      0.74       319
+                       Hediye Kutusu       0.49      0.32      0.38      2518
+                       Hediye Sepeti       0.34      0.45      0.38      1161
+                  Hediyelik Fidanlar       0.52      0.84      0.64       637
+                               Helva       0.84      0.92      0.88       291
+                      Hesap Makinesi       0.88      0.98      0.93       203
+                    Hijyenik Eldiven       0.73      0.95      0.83       328
+                        Hijyenik Ped       0.82      0.94      0.88       380
+               Hindistan Cevizi Yağı       0.46      0.90      0.61       112
+     Hobi Makineleri ve Aksesuarları       0.21      0.54      0.30       188
+          Hortum ve Toplama Ürünleri       0.67      0.89      0.77       561
+                               Hurma       0.82      0.91      0.87       234
+                                Hurç       0.67      0.94      0.78       359
+                               Hırka       0.90      0.56      0.69      4014
+                               Hızma       0.87      0.98      0.93       198
+                        Islak Mendil       0.51      0.69      0.59       249
+                             Isıtıcı       0.83      0.83      0.83       459
+                                Jant       0.33      0.86      0.48       148
+                         Jant Kapağı       1.00      0.99      1.00      9978
+                            Jartiyer       0.14      0.68      0.23       168
+                               Jeans       0.66      0.84      0.74      2429
+                Jel Mürekkepli Kalem       0.40      0.65      0.49       556
+                               Kaban       0.87      0.56      0.68      1918
+                     Kablo & Adaptör       0.98      0.85      0.91      9357
+                    Kablolu Hoparlör       0.38      0.80      0.51       224
+                               Kadeh       0.60      0.88      0.71       300
+                     Kahvaltı Takımı       0.84      0.90      0.87       676
+                    Kahve Fincanları       0.97      0.87      0.91      6470
+                     Kahve Şurupları       0.55      0.92      0.69       156
+                              Kaktüs       0.34      0.76      0.48       424
+                Kaldırma Ekipmanları       0.41      0.79      0.54       247
+                        Kalem Kutusu       0.59      0.74      0.65       896
+                        Kalem Uçları       0.31      0.64      0.42       254
+                  Kalemlik & Ataşlık       0.68      0.67      0.68      2234
+                          Kalıcı Oje       0.65      0.89      0.75       896
+                              Kamera       0.45      0.78      0.57       376
+                        Kamp Lambası       0.45      0.57      0.50      1456
+                       Kamp Matarası       0.26      0.56      0.36       157
+                        Kamp Mutfağı       0.18      0.40      0.25       189
+                       Kamp Ocakları       0.49      0.78      0.60       192
+                     Kamp Sandalyesi       0.89      0.91      0.90       269
+                              Kanepe       0.80      0.92      0.86       278
+                        Kap & Ferace       0.79      0.87      0.83      1040
+                       Kapak & Kılıf       0.94      0.92      0.93      9690
+                            Kapatıcı       0.78      0.87      0.82       567
+                        Kapsül Kahve       0.69      0.87      0.77       151
+                     Kapı Stoperleri       0.64      0.85      0.73       228
+                           Kapı Süsü       0.69      0.86      0.77      1060
+                    Kapı Önü Paspası       0.92      0.94      0.93      2237
+                 Kapı-Kapı Hırdavatı       0.74      0.72      0.73      1345
+               Kapı-Pencere Bantları       0.43      0.83      0.56       206
+                            Kar Botu       0.19      0.67      0.30       458
+                          Kar Küresi       0.84      0.93      0.88       994
+           Karakter Figür Oyuncaklar       0.52      0.53      0.52      1493
+                             Kartlık       0.66      0.89      0.76      1624
+                Kartuş, Toner & Drum       0.90      0.92      0.91      9826
+                             Karyola       0.82      0.97      0.89       311
+                   Karışık Kuruyemiş       0.71      0.83      0.76       239
+                             Kaseler       0.76      0.70      0.73      1398
+                              Kasnak       0.58      0.90      0.71       246
+                          Katı Sabun       0.65      0.84      0.73       441
+                             Kavanoz       0.80      0.64      0.71      1620
+                 Kayganlaştırıcı Jel       0.88      0.89      0.89       186
+                              Kaykay       0.62      0.92      0.74       146
+                   Kaynak Makineleri       0.69      0.87      0.77       246
+                         Kayık Tabak       0.62      0.91      0.74       340
+                               Kazak       0.96      0.66      0.78      8444
+                         Kağıt Havlu       0.47      0.84      0.60       199
+                        Kağıt Peçete       0.72      0.64      0.68       425
+                 Kaş Kalemi&Kaş Farı       0.76      0.82      0.79       598
+                          Kaş Makası       0.43      0.68      0.53       148
+                     Kaş Sabitleyici       0.96      0.96      0.96       419
+                Kaş ve Kirpik Serumu       0.58      0.79      0.67       118
+                               Kaşık       0.63      0.63      0.63       649
+                        Kaşık Maması       0.42      0.82      0.56        91
+                            Kaşıklık       0.76      0.86      0.81       619
+                      Kedi Aksesuarı       0.46      0.42      0.44      1118
+                  Kedi Evi ve Kafesi       0.30      0.68      0.42       148
+                Kedi Fırça ve Tarağı       0.49      0.61      0.55       308
+                Kedi Konserve Maması       0.87      0.85      0.86       989
+                           Kedi Kumu       0.92      0.91      0.91       495
+                    Kedi Kuru Maması       0.91      0.80      0.85      1340
+                       Kedi Oyuncağı       0.78      0.79      0.78      1051
+                   Kedi Sağlık Ürünü       0.28      0.43      0.34       192
+                        Kedi Tasması       0.76      0.76      0.76      1098
+                       Kedi Tuvaleti       0.80      0.85      0.83       405
+                    Kedi Tırmalaması       0.75      0.85      0.80       312
+                       Kedi Vitamini       0.49      0.55      0.52       224
+          Kedi ve Köpek Mama Su Kabı       0.92      0.85      0.88      1535
+        Kedi ve Köpek Taşıma Çantası       0.80      0.89      0.84       646
+                Kedi ve Köpek Yatağı       0.86      0.70      0.77       974
+                          Kedi Ödülü       0.76      0.85      0.80       309
+                               Keman       0.67      0.94      0.78       321
+                               Kemer       0.95      0.93      0.94      3206
+                       Kesme Tahtası       0.94      0.93      0.94       960
+                     Keçeli Kalemler       0.49      0.70      0.58      1022
+                               Kilim       0.90      0.94      0.92      2577
+                            Kilitler       0.73      0.82      0.77       983
+                       Kimono&Kaftan       0.64      0.93      0.76       446
+                     Kirpik Kıvırıcı       0.65      0.87      0.74       107
+                       Kişisel Bakım       0.46      0.60      0.52       304
+                     Klasik Ayakkabı       0.58      0.59      0.59      5508
+             Klasik Topuklu Ayakkabı       0.76      0.65      0.70      5912
+                              Klavye       0.66      0.83      0.74       738
+                              Klozet       0.63      0.86      0.73       132
+          Klozet Adaptörü & Lazımlık       0.72      0.87      0.79       269
+                       Klozet Kapağı       0.87      0.93      0.90       256
+   Koku Giderici ve Hava Temizleyici       0.73      0.41      0.52      1560
+                   Kokulu Mum ve Jel       0.46      0.54      0.50       459
+                             Kolajen       0.47      0.78      0.59       200
+                          Koleksiyon       0.95      0.73      0.82      4851
+                      Kolluk & Simit       0.65      0.97      0.78       277
+                             Kolonya       0.94      0.88      0.91      1868
+                    Koltuk Takımları       0.84      0.89      0.86       506
+                       Koltuk Örtüsü       0.90      0.90      0.90      1135
+                           Kolçaklar       1.00      0.99      0.99      4457
+                             Komodin       0.88      0.91      0.89       272
+                   Konsept Hediyelik       0.64      0.45      0.53      7087
+                              Konsol       0.75      0.96      0.84       207
+                 Konsol Aksesuarları       0.37      0.78      0.50       236
+                               Korse       0.90      0.68      0.77      3496
+                Koruyucu Aksesuarlar       0.49      0.46      0.48       529
+                    Koruyucu Tekstil       0.89      0.94      0.92       678
+                   Koruyucu ve Kilit       0.89      0.84      0.86       944
+                              Kostüm       0.61      0.84      0.70       840
+         Koşu & Antrenman Ayakkabısı       0.48      0.64      0.55      1076
+                             Krampon       0.38      0.80      0.52       160
+                              Kravat       0.97      0.98      0.98      1903
+    Kulak içi TWS Bluetooth Kulaklık       0.94      0.84      0.89      8247
+         Kulak Üstü Kablolu Kulaklık       0.82      0.79      0.81      2776
+       Kulak üstü Bluetooth Kulaklık       0.48      0.82      0.61      1456
+          Kulak İçi Kablolu Kulaklık       0.97      0.93      0.95      9995
+                     Kulaklık Kılıfı       0.90      0.94      0.92      2333
+                Kumandalı Oyuncaklar       0.73      0.80      0.76      1054
+                               Kumaş       0.92      0.82      0.87      2244
+                        Kumaş Boyası       0.82      0.94      0.88       382
+                      Kumaş Pantolon       0.09      0.64      0.16       182
+                             Kumbara       0.40      0.91      0.55       595
+                             Kupalar       0.96      0.85      0.90      9848
+                             Kurdele       0.95      0.94      0.95      1568
+                    Kuru Boya Kalemi       0.92      0.79      0.85      3163
+                          Kuru İncir       0.62      0.94      0.75       124
+                     Kurşun Kalemler       0.61      0.56      0.59       956
+                       Kutu Oyunları       0.55      0.51      0.53      1635
+         Kutu ve Ambalaj Malzemeleri       0.66      0.53      0.59      1026
+                   Kuzine ve Sobalar       0.67      0.90      0.77       134
+                          Kuş Kafesi       0.61      0.90      0.73       214
+                        Kuş Oyuncağı       0.58      0.75      0.65       468
+                   Kuş Sağlığı Ürünü       0.45      0.52      0.48       552
+                            Kuş Yemi       0.84      0.72      0.77       889
+                     Köpek Aksesuarı       0.49      0.44      0.46      1454
+                  Köpek Eğitim Ürünü       0.40      0.80      0.53       228
+                   Köpek Kuru Maması       0.94      0.93      0.93       989
+                      Köpek Kıyafeti       0.77      0.77      0.77       853
+                      Köpek Oyuncağı       0.72      0.75      0.73      1059
+                  Köpek Sağlık Ürünü       0.29      0.43      0.35       329
+                       Köpek Tasması       0.88      0.79      0.83      3057
+                      Köpek Vitamini       0.35      0.49      0.41       203
+                         Köpek Ödülü       0.80      0.86      0.83       602
+                         Köşe Takımı       0.68      0.94      0.79       158
+                         Kül Tablası       0.84      0.97      0.90       520
+                               Külot       0.95      0.75      0.84      6468
+            Kırlent & Kırlent Kılıfı       0.96      0.84      0.90      8912
+        Kırıcı Deliciler & Kırıcılar       0.66      0.89      0.76       199
+             Laboratuvar Malzemeleri       0.23      0.43      0.30       399
+                            Lambader       0.92      0.88      0.90      2234
+              Laptop & Evrak Çantası       0.77      0.89      0.82      1129
+                              Lastik       0.94      0.87      0.90      3758
+               Lastik Bakım Ürünleri       0.78      0.82      0.80      1368
+                              Lavabo       0.88      0.93      0.90       505
+                        Lavabo Açıcı       0.81      0.93      0.87       167
+                    Lavabo Bataryası       0.92      0.84      0.88       807
+                        Lazer Yazıcı       0.33      0.90      0.49       105
+                            Led Işık       0.66      0.31      0.42      3972
+             Lego & Yapı Oyuncakları       0.53      0.51      0.52      1489
+                       Lehim & Havya       0.88      0.93      0.90       694
+                      Limon Sıkacağı       0.70      0.82      0.76       233
+                     Loafer Ayakkabı       0.68      0.69      0.68      1097
+                        Lokma Takımı       0.65      0.88      0.75       470
+                               Lokum       0.77      0.83      0.80       823
+                              Magnet       0.84      0.90      0.87      1188
+                             Makarna       0.67      0.84      0.75       492
+                               Makas       0.80      0.90      0.85       797
+                               Maket       0.45      0.65      0.53       767
+                         Makyaj Bazı       0.59      0.81      0.68       339
+                      Makyaj Fırçası       0.88      0.76      0.81      2225
+                   Makyaj Organizeri       0.41      0.81      0.55       261
+                      Makyaj Süngeri       0.84      0.90      0.87       331
+                  Makyaj Temizleyici       0.68      0.90      0.77       335
+                      Makyaj Çantası       0.74      0.84      0.78       543
+                     Mama Sandalyesi       0.76      0.92      0.83       147
+                         Mama Önlüğü       0.81      0.94      0.87       592
+                 Mangal Aksesuarları       0.66      0.65      0.65       345
+                           Mangallar       0.60      0.78      0.67       281
+                  Manuel Diş Fırçası       0.89      0.82      0.85       609
+                        Masa Lambası       0.61      0.66      0.63      1218
+                          Masa Saati       0.58      0.89      0.70       978
+                         Masa Örtüsü       0.98      0.93      0.95      5711
+                        Masaj Cihazı       0.89      0.63      0.74       905
+                       Masaj Yastığı       0.61      0.96      0.74       302
+                 Masaüstü Bilgisayar       0.71      0.71      0.71       339
+                  Masaüstü Organizer       0.98      0.84      0.90      3998
+                             Maskara       0.94      0.92      0.93      1166
+                         Mastürbatör       0.84      0.90      0.87       157
+                          Matkap Ucu       0.88      0.81      0.84      1349
+                           Matkaplar       0.74      0.61      0.67       573
+           Mavi Işık Korumalı Gözlük       0.70      0.96      0.81       272
+                                Mayo       0.91      0.83      0.87      1299
+                       Medikal Korse       0.45      0.71      0.55       259
+                       Medikal Maske       0.95      0.85      0.90       760
+                         Merdivenler       0.70      0.95      0.81       185
+                               Meyve       0.12      0.69      0.21       100
+                        Meyve Kurusu       0.66      0.79      0.72       468
+                          Meyve Suyu       0.37      0.72      0.49       162
+                Meyve&Sebze Sıkacağı       0.58      0.87      0.69       114
+                            Mikrofon       0.69      0.89      0.78       563
+                             Mineral       0.06      0.39      0.10        76
+                   Mobilya Hırdavatı       0.86      0.73      0.79      2965
+                       Model Araçlar       0.59      0.59      0.59      1435
+                         Model Bebek       0.49      0.36      0.42      1487
+                             Monitör       0.55      0.94      0.69       109
+                                Mont       0.91      0.50      0.65      5223
+                       Motorcu Montu       0.53      0.81      0.64       323
+                   Motosiklet Branda       1.00      0.97      0.98      9793
+              Motosiklet Eldivenleri       0.52      0.93      0.66       200
+                 Motosiklet Kaskları       0.85      0.95      0.89       749
+          Motosiklet Lüzumlu Ürünler       0.32      0.72      0.44       626
+           Motosiklet Yedek Parçalar       0.80      0.43      0.56      6541
+                Motosiklet Çantaları       0.48      0.91      0.63       503
+                               Mouse       0.81      0.62      0.70       539
+                            Mousepad       0.97      0.89      0.93      2656
+                                 Mug       0.23      0.85      0.36        92
+       Multimedya&Görüntü Sistemleri       0.95      0.96      0.96       579
+                        Mum & Kandil       0.48      0.58      0.53       615
+                      Musluk Başlığı       0.83      0.89      0.86       798
+               Mutfak Düzenleyiciler       0.25      0.24      0.24       725
+                       Mutfak Halısı       0.81      0.95      0.88      1092
+        Mutfak Havlusu&Kurulama Bezi       0.84      0.81      0.83       713
+                     Mutfak Masaları       0.44      0.61      0.51       312
+             Mutfak Masası Takımları       0.89      0.83      0.86      1207
+                      Mutfak Rafları       0.35      0.68      0.46       204
+                 Mutfak Sandalyeleri       0.86      0.67      0.76      1302
+                   Mutfak Çöp Kovası       0.33      0.67      0.44       180
+            Muzik Aleti Aksesuarları       0.58      0.55      0.56      1059
+                          Müslin Bez       0.67      0.85      0.75       710
+                        Müzik Kutusu       0.40      0.86      0.55       263
+                       Nakış Kitleri       0.67      0.84      0.74       634
+                           Nakış İpi       0.91      0.90      0.91      3525
+           Nano ve Yıkanabilir Maske       0.82      0.86      0.84       933
+                             Nargile       0.69      0.94      0.79       239
+                Nargile Aksesuarları       0.79      0.75      0.77       449
+                              Nihale       0.73      0.95      0.82       271
+         Not Kağıtları ve Bloknotlar       0.37      0.69      0.49       721
+                   Notebook Soğutucu       0.64      0.95      0.77       316
+                                Ocak       0.68      0.88      0.76       185
+                          Oda Kokusu       0.25      0.62      0.35       298
+                   Ofis Aksesuarları       0.13      0.59      0.21       110
+                     Ofis Koltukları       0.81      0.73      0.77       497
+                       Ofis Masaları       0.51      0.80      0.63       154
+       Ofis Sarf Tüketim Malzemeleri       0.32      0.43      0.37       552
+                                 Oje       0.96      0.81      0.88      3407
+                         Okey Takımı       0.96      0.99      0.98       105
+                        Okul Çantası       0.70      0.69      0.69      2128
+                         Olta Kamışı       0.98      0.95      0.97      1635
+                       Olta Makinesi       0.96      0.94      0.95      1126
+                       Olta Misinası       0.87      0.85      0.86      1185
+                        Omuz Çantası       0.87      0.54      0.67     10936
+                          Orta Sehpa       0.94      0.80      0.87      1068
+                            Oto Amfi       0.43      0.85      0.57        91
+                       Oto Ampulleri       0.82      0.84      0.83      2036
+                      Oto Anahtarlık       0.77      0.77      0.77      2341
+            Oto Bardaklık ve Isıtıcı       0.95      0.93      0.94      1117
+                   Oto Bez ve Sünger       0.53      0.63      0.57       296
+                            Oto Boya       1.00      0.97      0.98      9949
+                          Oto Branda       0.99      0.99      0.99      9968
+                       Oto Cam Filmi       0.52      0.96      0.67       429
+                         Oto Farları       0.83      0.90      0.87      3452
+                        Oto Hoparlör       0.68      0.65      0.66       510
+                Oto Kapı Ekipmanları       0.77      0.80      0.79      2249
+                        Oto Kokuları       1.00      0.92      0.96      9930
+                   Oto Koltuk Kılıfı       0.99      0.97      0.98      9994
+                  Oto Koltuk Minderi       0.98      0.98      0.98      9970
+                         Oto Koltuğu       0.85      0.73      0.78       993
+            Oto Koltuğu Aksesuarları       0.60      0.72      0.65       315
+                   Oto Krom Aksesuar       0.79      0.74      0.76      5815
+                         Oto Lambası       0.73      0.70      0.72      1026
+                      Oto Paspasları       0.99      0.96      0.98      9990
+                        Oto Stopları       0.82      0.96      0.89      1348
+                          Oto Tampon       0.87      0.87      0.87      4556
+            Oto Teyp (Oto Mp3 Çalar)       0.55      0.83      0.66       178
+               Oto Vites Ekipmanları       0.80      0.87      0.83      1408
+                        Oto Yan Ayna       0.88      0.86      0.87      2552
+             Otomobil Yedek Parçalar       0.74      0.50      0.59      6450
+                Outdoor Aksesuarları       0.28      0.38      0.32       411
+                    Outdoor Ayakkabı       0.48      0.39      0.43      1875
+                     Oxford Ayakkabı       0.11      0.54      0.18       495
+                         Oyun Halısı       0.62      0.95      0.75       299
+                      Oyun Hamurları       0.77      0.84      0.80       995
+                       Oyun Kartları       0.31      0.74      0.44       113
+                         Oyun Çadırı       0.91      0.96      0.93       272
+                    Oyuncak Arabalar       0.63      0.45      0.53      2288
+       Oyuncak Bebek ve Aksesuarları       0.18      0.30      0.23       437
+      Oyuncak Kamyon ve İş Makineler       0.27      0.66      0.38       480
+        Oyuncak Silah & Su Tabancası       0.56      0.72      0.63       716
+                     Oyuncu Klavyesi       0.43      0.84      0.57       150
+                      Oyuncu Koltuğu       0.84      0.95      0.89       144
+                     Oyuncu Kulaklık       0.66      0.88      0.76      1271
+         Oyuncu Masaüstü Bilgisayarı       0.71      0.83      0.77       221
+                        Oyuncu Mouse       0.44      0.75      0.55       189
+                     Oyuncu Mousepad       0.52      0.82      0.64       344
+                        PS4 Oyunları       0.31      0.83      0.45        99
+               Paketleme Malzemeleri       0.06      0.56      0.11        57
+                               Palto       0.73      0.90      0.80       143
+               Pamuk ve Kulak Çubuğu       0.35      0.96      0.51       103
+                              Panduf       0.82      0.75      0.78       972
+                      Panel Radyatör       0.57      0.86      0.69       200
+                                Pano       0.38      0.85      0.52       316
+                            Pantolon       0.89      0.38      0.53      9795
+                     Pantolon Askısı       0.42      0.77      0.54       482
+                               Panço       0.75      0.95      0.84       276
+                             Pardesü       0.39      0.63      0.48       102
+                               Pareo       0.84      0.91      0.87       381
+                              Parfüm       0.96      0.90      0.93      4631
+             Park Yatak & Oyun Parkı       0.75      0.70      0.73       414
+                  Parti Aksesuarları       0.83      0.67      0.74      4890
+               Parti Gözlüğü & Maske       0.73      0.73      0.73      2453
+                       Parti Kostümü       0.27      0.56      0.37       464
+                      Parti Peçetesi       0.47      0.83      0.60       392
+                       Paspas ve Mop       0.96      0.91      0.93      2170
+                          Pasta Cila       0.86      0.86      0.86       882
+                        Pasta Sunumu       0.48      0.69      0.57       589
+                          Pasta Süsü       0.43      0.70      0.53       242
+                        Pasta Tabağı       0.43      0.78      0.56       251
+                         Pastel Boya       0.53      0.88      0.66       447
+                Patates Soğan Sepeti       0.63      0.92      0.75       139
+                               Paten       0.79      0.98      0.88       125
+                               Patik       0.73      0.83      0.78       986
+                     Pedallı Araçlar       0.48      0.75      0.59       402
+                              Pekmez       0.59      0.50      0.54       866
+                    Peluş Oyuncaklar       0.88      0.66      0.75      4190
+                               Pense       0.79      0.89      0.84       476
+                     Perde Aksesuarı       0.54      0.83      0.65       802
+                              Peynir       0.89      0.92      0.90       739
+                           Peçetelik       0.61      0.74      0.67       422
+                            Piercing       0.95      0.97      0.96      2326
+                         Pijama Altı       0.51      0.85      0.64       656
+                       Pijama Takımı       0.91      0.83      0.87     10081
+                    Pikap & Gramofon       0.55      0.94      0.69       121
+                    Piknik Malzemesi       0.12      0.54      0.19        56
+                Pilates Minder & Mat       0.79      0.93      0.86       252
+             Piller & Şarj Cihazları       0.84      0.82      0.83      2380
+                              Pirinç       0.60      0.88      0.72       150
+           Pişirme Kağıdı ve Torbası       0.57      0.90      0.70       141
+                       Plaj Elbisesi       0.49      0.62      0.54       328
+                        Plaj Çantası       0.55      0.88      0.68       722
+                                Plak       0.54      0.62      0.57       947
+                          Planlayıcı       0.51      0.84      0.63       219
+                   Polen ve Propolis       0.48      0.89      0.62       263
+                   Polo Yaka T-shirt       0.70      0.89      0.78      1824
+                  Portbebe & Kanguru       0.69      0.93      0.79       346
+              Portföy & Clutch Çanta       0.53      0.70      0.60       830
+                           Portmanto       0.71      0.93      0.81       170
+                     Postacı Çantası       0.53      0.73      0.61      1826
+                           Powerbank       0.98      0.98      0.98      7167
+                               Poşet       0.61      0.69      0.65       378
+                    Pratik Ev Gereci       0.11      0.18      0.14       359
+             Pratik Mutfak Gereçleri       0.72      0.26      0.38      3053
+              Pratik Temizlik Gereci       0.18      0.21      0.19       312
+           Prestij ve Dolma Kalemler       0.66      0.79      0.72       627
+                         Prezervatif       0.86      0.93      0.89       272
+                                Priz       0.63      0.73      0.68       599
+                        Protein Tozu       0.69      0.87      0.77       157
+                               Pudra       0.78      0.88      0.83       578
+                         Puf & Bench       0.92      0.91      0.91      1256
+                              Puzzle       0.93      0.75      0.83      5793
+                      Pırlanta Yüzük       0.91      0.93      0.92      1862
+                        Rakı Bardağı       0.41      0.88      0.56       156
+                               Rende       0.81      0.86      0.83       599
+                           Rezervuar       0.65      0.86      0.74       163
+                               Reçel       0.91      0.91      0.91       762
+                    Roll-on ve Stick       0.66      0.83      0.74       744
+                               Rozet       1.00      1.00      1.00      9991
+                                 Ruj       0.98      0.87      0.92      4000
+             Runner&Amerikan Servisi       0.98      0.94      0.96      8340
+                        Rüzgarlıklar       0.99      0.95      0.97      8171
+             SSD (Solid State Drive)       0.37      0.84      0.52       101
+                                Saat       0.99      0.94      0.96      9854
+                        Saat Kordonu       0.72      0.68      0.70      3045
+                            Sabahlık       0.57      0.72      0.64       651
+                            Sabunluk       0.91      0.73      0.81      1184
+                               Sahan       0.91      0.96      0.94       337
+                     Saklama Kapları       0.73      0.66      0.69      2409
+                      Saklama Kutusu       0.38      0.48      0.43       628
+                               Saksı       0.90      0.71      0.79      5980
+                            Saksılık       0.40      0.72      0.52       826
+                       Salata Kasesi       0.65      0.91      0.76       314
+                             Salopet       0.42      0.92      0.58       356
+                               Salça       0.88      0.97      0.92       314
+                    Salıncak & Hamak       0.77      0.89      0.82       428
+             Sanal Gerçeklik Gözlüğü       1.00      0.99      0.99       622
+        Sanatsal Kağıtlar & Kalemler       0.54      0.36      0.43      2464
+                            Sandalet       0.90      0.62      0.73      5618
+                    Sandalye Minderi       0.95      0.83      0.89      1209
+                     Sandalye Örtüsü       0.73      0.97      0.83       307
+                           Sandıklar       0.77      0.96      0.85       294
+                      Sarımsak Ezici       0.67      0.92      0.78       147
+                             Satranç       0.67      0.95      0.78       415
+                           Saç Bandı       0.75      0.81      0.78       570
+                          Saç Bonesi       0.70      0.92      0.79       326
+                          Saç Boyası       0.98      0.86      0.92      5773
+                    Saç Düzleştirici       0.46      0.94      0.62       130
+                Saç Fırçası ve Tarak       0.93      0.87      0.90      2116
+                          Saç Jölesi       0.73      0.84      0.78       168
+                           Saç Kremi       0.91      0.79      0.85      2124
+                Saç Kurutma Makinesi       0.83      0.96      0.89       223
+                          Saç Köpüğü       0.76      0.89      0.82       291
+                         Saç Maskesi       0.64      0.82      0.72       608
+                   Saç Serum ve Yağı       0.64      0.62      0.63       943
+                          Saç Spreyi       0.75      0.81      0.78       657
+      Saç Şekillendirici Krem ve Wax       0.60      0.69      0.64       531
+               Sağlıklı Atıştırmalık       0.21      0.30      0.25       212
+                             Scooter       0.27      0.39      0.32       117
+                               Sebze       0.14      0.71      0.23       102
+                            Sebzelik       0.54      0.82      0.65       164
+                             Seccade       0.92      0.99      0.95       969
+                       Sehpa & Stand       0.32      0.72      0.44       223
+                       Selfie Çubuğu       0.86      0.95      0.90       976
+                       Selülit Kremi       0.17      0.76      0.28        70
+                               Sepet       0.65      0.54      0.59       917
+           Seramik ve Yer Döşemeleri       0.52      0.76      0.61       378
+                       Servis Tabağı       0.47      0.67      0.56       843
+        Seyahat Sistem Bebek Arabası       0.56      0.78      0.65       109
+           Silecekler & Aksesuarları       0.98      0.97      0.98      5912
+                            Silgiler       0.83      0.87      0.85       614
+                   Silikon Tabancası       0.70      0.86      0.77       353
+                          Silikonlar       0.52      0.61      0.56       764
+                     Sinek Perdeleri       0.61      0.98      0.75       139
+                 Sirke ve Nar Ekşisi       0.91      0.93      0.92       876
+             Sistem Kablo & Aksesuar       0.26      0.58      0.36       309
+         Siyah Nokta Temizleme Aleti       0.34      0.67      0.45       124
+                        Siyah Zeytin       0.64      0.59      0.62       569
+                                Slip       0.42      0.82      0.56       666
+                             Sneaker       0.82      0.68      0.74      5649
+                   Softshell & Polar       0.92      0.75      0.82      1960
+                              Sosluk       0.65      0.84      0.73       310
+               Soğutucu ve Overclock       0.96      0.91      0.94      3584
+                             Spatula       0.63      0.92      0.75       265
+                          Spor Atlet       0.26      0.56      0.35       408
+                       Spor Bileklik       0.07      0.70      0.13        97
+                       Spor Büstiyer       0.22      0.54      0.31       201
+                          Spor Ceket       0.12      0.67      0.21       199
+                   Spor Eşofman Altı       0.33      0.70      0.45       787
+                 Spor Eşofman Takımı       0.47      0.69      0.56      1543
+                          Spor Korse       0.09      0.50      0.15       185
+                         Spor Matara       0.37      0.64      0.47       133
+                           Spor Mont       0.23      0.62      0.34       337
+                    Spor Oyuncakları       0.94      0.80      0.86      7250
+                       Spor Pantolon       0.22      0.79      0.35       280
+                       Spor Sandalet       0.09      0.72      0.16       186
+              Spor Softshell & Polar       0.19      0.78      0.30       200
+                     Spor Sweatshirt       0.32      0.63      0.43      1686
+                        Spor Sütyeni       0.57      0.64      0.60       401
+                        Spor T-Shirt       0.40      0.61      0.48      2173
+                           Spor Tayt       0.40      0.60      0.48       970
+                         Spor Terlik       0.06      0.52      0.11       168
+           Spor Termal Giyim & İçlik       0.21      0.58      0.31       201
+          Spor Yağmurluk & Rüzgarlık       0.31      0.65      0.42       123
+                        Spor Çantası       0.32      0.65      0.43       363
+                          Spor Çorap       0.19      0.73      0.30       532
+                           Spor Şort       0.35      0.75      0.48       619
+                 Sporcu Aksesuarları       0.07      0.34      0.11       125
+                          Spot Lamba       0.51      0.76      0.61       499
+                       Sprey Boyalar       0.73      0.91      0.81      1112
+                            Stiletto       0.23      0.89      0.37       333
+                          Stor Perde       0.95      0.91      0.93      3843
+                          Streç Film       0.56      0.99      0.72       154
+                              String       0.41      0.78      0.54       273
+                    Su Arıtma Cihazı       0.79      0.85      0.82       939
+                          Su Bardağı       0.15      0.62      0.24       377
+                   Su Isıtıcı&Kettle       0.49      0.82      0.62       149
+            Su Motorları ve Pompalar       0.58      0.86      0.69       879
+                   Sulama Başlıkları       0.53      0.74      0.62       342
+                           Sulu Boya       0.45      0.91      0.60       961
+                               Suluk       0.23      0.65      0.34       127
+                      Suluk & Matara       0.70      0.42      0.52       715
+                            Suni Yem       0.95      0.83      0.88      4979
+                          Sweatshirt       0.92      0.51      0.66      9635
+                   Süpürge Aksesuarı       0.99      0.91      0.94      7343
+                       Sürahi& Karaf       0.83      0.81      0.82       846
+                              Sütyen       0.97      0.87      0.92      8174
+                             Süveter       0.83      0.92      0.88       376
+                              Süzgeç       0.84      0.89      0.87      1084
+     Sıcak Su Torbası ve Isıtıcı Ped       0.76      0.90      0.83       122
+                        Sırt Çantası       0.83      0.71      0.76      4997
+                          Sıvı Sabun       0.45      0.89      0.60       192
+                            Sıvı Yağ       0.14      0.56      0.23       199
+                             T-Shirt       0.88      0.67      0.76      9296
+                  TV Askı Aparatları       0.99      0.98      0.99      4644
+                TV Ekran Koruyucular       0.96      1.00      0.98      3179
+            TV Sehpaları & Üniteleri       0.89      0.85      0.87      1159
+                               Tabak       0.79      0.42      0.55      1834
+                            Tabanlık       0.52      0.75      0.62       519
+                              Tablet       0.30      0.84      0.44        97
+                       Tablet Kılıfı       0.98      0.90      0.93      8739
+                               Tablo       0.91      0.88      0.89      8822
+                           Tabureler       0.93      0.92      0.93       988
+                               Tahin       0.55      0.94      0.69       114
+                        Takma Kirpik       0.93      0.91      0.92       794
+        Takma Tırnak ve Aksesuarları       0.79      0.75      0.77      1092
+                              Takvim       0.59      0.89      0.71       186
+                        Takım Elbise       0.73      0.90      0.81      1002
+      Takım Çantaları & Avadanlıklar       0.61      0.82      0.70       441
+                      Tansiyon Aleti       0.82      0.98      0.89       102
+                               Tartı       0.45      0.76      0.57       202
+                        Tatlandırıcı       0.13      0.54      0.21       127
+                               Tatlı       0.27      0.55      0.37       196
+                                Tayt       0.88      0.69      0.77      4949
+                                 Taç       0.88      0.84      0.86      2351
+                          Taşlamalar       0.79      0.92      0.85       283
+              Tebeşir & Tahta Kalemi       0.76      0.86      0.80       463
+               Tek Kişilik Battaniye       0.64      0.85      0.73       513
+                Tek Kişilik Nevresim       0.85      0.82      0.83      1653
+        Tek Kişilik Pike&Pike Takımı       0.84      0.85      0.85       354
+            Tek Kişilik Yatak Örtüsü       0.71      0.80      0.75       383
+                  Tek Kişilik Yorgan       0.81      0.90      0.85       220
+           Tek Kişilik Çarşaf Takımı       0.75      0.68      0.71       770
+                 Teknik Çizim Kalemi       0.81      0.86      0.83      1680
+                      Telefon Kasası       0.88      0.85      0.87      2301
+           Telsiz & Masaüstü Telefon       0.35      0.84      0.49       102
+              Telsiz&Kamera&Dedektör       0.52      0.73      0.61       196
+                       Temizlik Bezi       0.79      0.82      0.80       752
+         Temizlik Fırçası ve Süpürge       0.47      0.64      0.54       596
+                     Temizlik Kovası       0.29      0.74      0.42       142
+                               Tepsi       0.88      0.90      0.89      2397
+              Teraryum & Sukulentler       0.90      0.91      0.90      2694
+                              Terlik       0.89      0.65      0.75      9212
+                Termal Giyim & İçlik       0.66      0.69      0.67      1322
+                              Termos       0.91      0.85      0.88      2341
+                              Tesbih       0.97      0.93      0.95      7422
+                      Tesettür Abiye       0.53      0.81      0.64       729
+              Tesettür Alt-Üst Takım       0.26      0.75      0.39      1422
+                       Tesettür Bluz       0.06      0.62      0.10       202
+                       Tesettür Bone       0.86      0.70      0.77      1718
+                      Tesettür Ceket       0.10      0.68      0.17       236
+                     Tesettür Elbise       0.45      0.56      0.49      2028
+                       Tesettür Etek       0.26      0.54      0.35       409
+             Tesettür Eşofman Takımı       0.15      0.67      0.25       339
+                     Tesettür Gömlek       0.10      0.60      0.17       336
+                      Tesettür Hırka       0.12      0.65      0.20       285
+                      Tesettür Kaban       0.21      0.61      0.31       246
+                      Tesettür Kazak       0.07      0.64      0.13       183
+                       Tesettür Mayo       0.77      0.87      0.82       540
+                       Tesettür Mont       0.08      0.67      0.14       142
+                   Tesettür Pantolon       0.12      0.67      0.21       501
+                    Tesettür Pardesü       0.56      0.49      0.52       203
+                 Tesettür Sweatshirt       0.11      0.77      0.20       337
+                   Tesettür Trençkot       0.41      0.63      0.50       255
+                      Tesettür Tunik       0.62      0.53      0.57      2243
+                      Tesettür Yelek       0.17      0.75      0.27       215
+                             Testere       0.71      0.86      0.78       414
+                            Tohumlar       0.91      0.83      0.87      3274
+                                Toka       0.98      0.94      0.96      6507
+                               Tonik       0.63      0.80      0.71       399
+                   Torf ve Topraklar       0.57      0.80      0.67       328
+                           Tornavida       0.86      0.75      0.80      1296
+                Torpido Aksesuarları       0.96      0.96      0.96      5500
+                       Tost Makinesi       0.79      0.95      0.86       143
+                            Trençkot       0.77      0.67      0.72       625
+                               Tulum       0.83      0.62      0.71      2928
+                               Tunik       0.54      0.52      0.53      2126
+                               Turşu       0.83      0.90      0.86       293
+                               Tuval       0.69      0.88      0.77       839
+                     Tuvalet Fırçası       0.70      0.86      0.78       388
+                      Tuvalet Kağıdı       0.81      0.93      0.86       130
+                   Tuvalet Kağıtlığı       0.48      0.83      0.61       190
+                 Tuvalet Temizleyici       0.30      0.57      0.39       111
+                                 Tuz       0.71      0.90      0.79       414
+                     Tuzluk Biberlik       0.45      0.74      0.56       136
+                   Tükenmez Kalemler       0.77      0.65      0.71      2639
+                           Tül Perde       0.90      0.94      0.92      3043
+                        Türk Kahvesi       0.72      0.83      0.77       823
+                Tütsü ve Buhurdanlık       0.65      0.91      0.76      1116
+                     Tüy Dökücü Krem       0.88      0.93      0.90       425
+                Tüy Toplama Ürünleri       0.45      0.63      0.52       272
+                       Tüy Toplayıcı       0.57      0.67      0.61       263
+                        Tıraş Bıçağı       0.84      0.80      0.82       491
+              Tıraş Köpük ve Jelleri       0.58      0.83      0.68       183
+                      Tıraş Makinesi       0.87      0.86      0.87       643
+                  Tıraş Sonrası Ürün       0.77      0.80      0.79       365
+                        Tırnak Bakım       0.48      0.71      0.57       422
+                           Tırpanlar       0.82      0.95      0.88       205
+                                 USB       0.43      0.79      0.56       277
+                          Uydu Alıcı       0.60      0.93      0.73       215
+                    Uyku Arkadaşları       0.24      0.84      0.38       148
+                         Uyku Tulumu       0.53      0.59      0.56      1088
+                  Uzaktan Kumandalar       0.98      0.88      0.93      4877
+                          Uçlu Kalem       0.35      0.46      0.39       753
+                       Valiz & Bavul       0.95      0.93      0.94       788
+                          Vantilatör       0.99      0.98      0.98       548
+                                Vazo       0.82      0.91      0.86      1470
+                      Versatil Kalem       0.84      0.73      0.78      2104
+                            Vibratör       0.86      0.90      0.88       726
+                  Vida, Çivi & Dübel       0.87      0.77      0.82      2443
+                        Video Kamera       0.37      0.65      0.48       126
+                             Vitamin       0.92      0.58      0.71      2472
+                  Vücut Aksesuarları       0.28      0.68      0.39       229
+                   Vücut Güneş Kremi       0.69      0.68      0.69       469
+                         Vücut Kremi       0.60      0.42      0.50      1690
+                      Vücut Peelingi       0.58      0.62      0.60       296
+                        Vücut Spreyi       0.68      0.83      0.75       239
+           Yaka Kartı & Aksesuarları       0.85      0.91      0.88       506
+                 Yalıtım Malzemeleri       0.54      0.69      0.61       426
+                           Yan Sehpa       0.58      0.85      0.69       491
+                  Yapay & Kuru Çiçek       0.82      0.71      0.76      2609
+                    Yapışkanlı Folyo       1.00      0.98      0.99      8266
+              Yapıştırıcı ve Bantlar       0.71      0.33      0.45      1792
+                      Yapıştırıcılar       0.66      0.76      0.70      1180
+                          Yara Bandı       0.48      0.84      0.61       152
+                              Yastık       0.87      0.67      0.76      2000
+                       Yastık Kılıfı       0.55      0.84      0.66      1342
+                               Yatak       0.91      0.85      0.88      1022
+                Yatak / Baza Başlığı       0.68      0.90      0.77       303
+            Yatırımlık Altın Bilezik       0.46      0.77      0.58       124
+              Yavru Kedi Bakım Ürünü       0.23      0.57      0.33       110
+                 Yazarkasa ve Terazi       0.80      0.78      0.79       669
+                        Yazı Tahtası       0.77      0.90      0.83       427
+             Yazıcı Sarf Malzemeleri       0.96      0.89      0.92      9733
+              Yağ ve Motor Katkıları       0.64      0.74      0.69       752
+          Yağ Çözücü ve Kireç Sökücü       0.62      0.69      0.65       274
+                           Yağdanlık       0.77      0.89      0.82       440
+                           Yağlıboya       0.50      0.87      0.63       335
+                 Yağmurluk&Rüzgarlık       0.74      0.79      0.76       654
+                               Yelek       0.89      0.56      0.69      2339
+                        Yemek Masası       0.81      0.75      0.78      1001
+              Yemek Odası Sandalyesi       0.37      0.74      0.49       361
+                  Yemek Odası Takımı       0.40      0.84      0.54       179
+                        Yemek Takımı       0.88      0.96      0.92       641
+                         Yer Fıstığı       0.81      0.91      0.86       232
+                        Yeşil Zeytin       0.61      0.85      0.71       171
+                           Yeşil Çay       0.38      0.80      0.52       104
+                              Yolluk       0.81      0.94      0.87      1332
+                             Yürüteç       0.73      0.94      0.83       193
+                  Yürüyüş Ayakkabısı       0.65      0.63      0.64      5730
+                     Yüz Güneş Kremi       0.23      0.39      0.29       236
+                           Yüz Kremi       0.73      0.56      0.63      2173
+                     Yüz Masaj Aleti       0.70      0.74      0.72       361
+                         Yüz Maskesi       0.84      0.77      0.80      1407
+                        Yüz Peelingi       0.44      0.69      0.54       199
+                Yüz Temizleme Cihazı       0.74      0.58      0.65       567
+               Yüz Temizleme Fırçası       0.37      0.80      0.51       114
+                     Yüz Temizleyici       0.76      0.65      0.70      1217
+                   Yüzey Temizleyici       0.74      0.55      0.63       761
+                       Yılbaşı Ağacı       0.45      0.94      0.61       122
+                     Yılbaşı Süsleri       0.54      0.77      0.63      2114
+                          Zeytinyağı       0.56      0.68      0.61       370
+                               Zigon       0.93      0.97      0.95       979
+        Zincirli Ağaç Kesme Makinesi       0.49      0.72      0.58       255
+                               Çadır       0.88      0.97      0.92       349
+           Çakı & Bıçak Aksesuarları       0.48      0.75      0.59       269
+                      Çalışma Masası       0.94      0.86      0.90       814
+                  Çalışma Sandalyesi       0.57      0.77      0.65       184
+                   Çamaşır Deterjanı       0.74      0.81      0.77       310
+                  Çamaşır Kurutmalık       0.73      0.88      0.80       264
+               Çamaşır Leke Çıkarıcı       0.45      0.77      0.57       122
+                      Çamaşır Sepeti       0.85      0.84      0.84       566
+                        Çamaşır Suyu       0.80      0.90      0.84       193
+                Çamaşır Yumuşatıcısı       0.70      0.89      0.78       250
+                  Çanta Aksesuarları       0.50      0.71      0.59       565
+                               Çatal       0.61      0.91      0.73       193
+       Çay & Kahve Makinesi Aksesuar       0.17      0.53      0.26       143
+                         Çay Bardağı       0.52      0.92      0.66       488
+                      Çay Fincanları       0.43      0.74      0.54       455
+                          Çay Kaşığı       0.51      0.91      0.65       142
+                        Çay Makinesi       0.80      0.90      0.85       175
+                          Çay Tabağı       0.66      0.89      0.76       158
+                           Çaydanlık       0.91      0.78      0.84       766
+                      Çelik Bileklik       0.72      0.80      0.76      3827
+                         Çelik Kolye       0.70      0.73      0.71      3166
+                          Çelik Küpe       0.61      0.66      0.63      2736
+                   Çelik Para Kasası       0.48      0.81      0.61       116
+                         Çelik Yüzük       0.27      0.65      0.38       368
+                            Çerezlik       0.68      0.84      0.75       730
+           Çerçeve & Fotoğraf Albümü       0.78      0.83      0.81      3701
+              Çift Kişilik Battaniye       0.82      0.81      0.81       417
+               Çift Kişilik Nevresim       0.94      0.81      0.87      2832
+       Çift Kişilik Pike&Pike Takımı       0.81      0.87      0.84       616
+           Çift Kişilik Yatak Örtüsü       0.58      0.32      0.41       563
+                 Çift Kişilik Yorgan       0.79      0.88      0.83       251
+          Çift Kişilik Çarşaf Takımı       0.82      0.85      0.83       681
+                            Çikolata       0.87      0.80      0.83      1842
+                              Çitler       0.65      0.85      0.73       457
+                               Çizme       0.88      0.88      0.88      2140
+              Çiçekli Bodur Bitkiler       0.36      0.64      0.46       332
+                     Çocuk Bisikleti       0.59      0.84      0.70       279
+                        Çocuk Halısı       0.91      0.92      0.92      3395
+                    Çocuk Odası Askı       0.41      0.92      0.57       101
+                   Çocuk Odası Avize       0.77      0.89      0.83       910
+              Çocuk Odası Aydınlatma       0.37      0.78      0.51       198
+           Çocuk Odası Duvar Sticker       0.28      0.79      0.41       519
+             Çocuk Odası Düzenleyici       0.14      0.76      0.23        49
+                 Çocuk Odası Perdesi       0.50      0.90      0.64       816
+               Çocuk Puzzle & Yapboz       0.43      0.75      0.54      1595
+                      Çocuk Scooterı       0.46      0.74      0.57       174
+                               Çorap       0.97      0.76      0.85      9831
+                          Çöp Kovası       0.78      0.58      0.67       768
+                         Çöp Torbası       0.83      0.89      0.86       366
+                             Çırpıcı       0.55      0.95      0.69       346
+                     Ölçüm Cihazları       0.69      0.62      0.65      1053
+               Önlük&Eldiven&Tutacak       0.95      0.90      0.93      1372
+                        Örgü Kitleri       0.34      0.61      0.43       539
+                            Örgü İpi       0.93      0.70      0.80      9006
+                           Özel Ezme       0.44      0.72      0.55       108
+                   Öğütücü Değirmeni       0.49      0.93      0.65       153
+          Ütü Masası ve Aksesuarları       0.81      0.96      0.88       183
+                          İnci Kolye       0.11      0.75      0.19       290
+                   İç Cephe Boyaları       0.94      0.81      0.87      3561
+               İç Giyim Aksesuarları       0.11      0.48      0.18       175
+                  İç Mekan Bitkileri       0.59      0.55      0.57      1118
+               İç çamaşırı takımları       0.71      0.82      0.76      3305
+                         İçecek Tozu       0.40      0.81      0.54       181
+               İş Ayakkabısı&Çizmesi       0.50      0.77      0.60       396
+               İş Güvenliği Elbisesi       0.34      0.37      0.35       360
+                  İş Güvenliği Maske       0.67      0.72      0.69       377
+                      İş Kıyafetleri       0.18      0.51      0.26       123
+                                 Şal       0.86      0.85      0.85      7704
+                     Şamdan & Mumluk       0.91      0.87      0.89      2683
+                             Şampuan       0.96      0.88      0.92      4145
+                               Şapka       0.94      0.89      0.91      3933
+                 Şarj Cihazı & Kablo       0.92      0.89      0.90      9093
+                           Şekerleme       0.49      0.50      0.50       614
+                            Şekerlik       0.69      0.81      0.75       541
+                             Şemsiye       0.85      0.98      0.91       445
+                            Şifonyer       0.45      0.99      0.62       153
+          Şişme Yataklar - Koltuklar       0.41      0.87      0.56       107
+                      Şort & Bermuda       0.83      0.72      0.77      3765
+                              Şömine       0.36      0.90      0.51       156
+
+                            accuracy                           0.78   1715417
+                           macro avg       0.64      0.77      0.68   1715417
+                        weighted avg       0.83      0.78      0.79   1715417
